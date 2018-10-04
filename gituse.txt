@@ -1,7 +1,12 @@
-从本地 把新编辑好的文件 推上github上
+一、从本地 把新编辑好的文件 推上github上
 
 1.先cd  目标文件里面
 2.连接 远程仓库 		 git remote add origin git@github.com:Minyonlew/Tensorflow_Learning.git
 3.将新编辑的文件 add   		 git add xxx.xxx
 4.commit 			 git commit xxx.xxx -m "提示"
 5.推到远程库   			 git push origin master 
+
+二、几个文件一起推 但有些文件不想推  方法如下
+1.在 文件 ： .gitignore 里 添加文件名（不想推上去的 文件 的文件名）
+
+
